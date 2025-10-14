@@ -59,6 +59,7 @@
 - `git add .` Добавить в индекс все возможные файлы
 - `git commit` Сделать коммит в встроенном редакторе
 - `git commit -m "комментарий"` Сделать коммит без встроенного редактора
+- `git reset --hard` Отменить все изменения после последнего коммита
 
 
 # Проблемы
@@ -110,3 +111,6 @@
 - https://git-scm.com/downloads/win Страница загрузки Git для Windows
 - https://git-scm.com/downloads/mac Инструкции по установке Git для MacOS
 - https://git-scm.com/downloads/linux Инструкции по установке Git для Unix/Linux
+- https://smartiqa.ru/courses/git/lesson-2 Статья "Внутреннее устройство Git
+- https://ru.hexlet.io/courses/intro_to_git/lessons/index/theory_unit Статья "Индекс в Git
+- www.geeksforgeeks.org/states-of-a-file-in-git-working-directory/ Состояния файлов в Git
