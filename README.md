@@ -11,7 +11,7 @@
 2. Успешно объединила ветки
 3. Подредактировала профиль: добавила аватарку, описание и readme.md в профиле
 
-## 11.10.2025
+## 12.10.2025
 
 1. Прояснила отличия между скачиванием, клонированием и форком репозитория. Установила octocat/Spoon-Knife репозиторий.
 2. Добавила полезные ссылки
@@ -19,6 +19,10 @@
 4. Испробовала команду `git blame README.md` в текущей папке: <img width="896" height="185" alt="image" src="https://github.com/user-attachments/assets/37641a0f-d4ed-4e49-872d-8a67aa69f652" />
 5. Определила новые разделы: Команды, проблемы, темы для изучения
 6. Добавила gitignore c файлами и папками на локальном репо
+
+## 13.10.2025
+1. Перешла на курс степика "Git и GitHub" и добавила ссылки на официальные сайты Revision Control System и SubVersion, прошла первую тему VCS
+2. Разобрала базовые команды типа git config, значение префикса --global
 
 
 
@@ -30,6 +34,10 @@
 - `npm <start>` команда, которая запускает скрипт «start» в файле package.json проекта на Node.js.
 - `git config --global user.name` Показывает имя пользователя для подписания коммитов
 - `git config --global user.name "<имя>"` Устанавливает новое имя для пользователя для одного репозитория
+- `git config --global user.email "<имя>"` Устанавливает новую почту  
+- `git config --list` Выводит список всех установленных настроек конфигурации
+- `git config <название настройки>` Выводит определенную установленную настройку конфигурации
+- `git config --global color.ui <true/false/auto>` Устанавливает цветной вывод информации (true)
 - `git remote add origin <ссылка на репо>` Добавляет удалённый репозиторий (origin) в локальный репозиторий
 - `git clone <URL репозитория> [<название локальной папки>]` Создаёт локальную копию удалённого репозитория
 - `git fetch <адрес удалённого репозитория>` Загружает актуальные данные из удалённого репозитория в локальное хранилище без изменения файлов в рабочей директории
@@ -37,6 +45,10 @@
 - `git remote rm <имя удалённого репозитория>` Удаляет ссылку на удалённый репозиторий.
 - `touch .gitignore` Создать файл gitignore для своей папки
 - `git rm --cached FILENAME` Снять файл с отслеживания
+- `git init` Создать Git-репозиторий в текущей папке
+- `` 
+- `` 
+- `` 
 
 
 # Проблемы
@@ -83,3 +95,8 @@
 - https://www.pluralsight.com/courses/code-school-git-real Интерактивный онлайн курс по Git
 - https://services.github.com/#upcoming-events Онлайн тренинги с практическим подходом, основанным на проектах
 - https://github.com/orgs/community/discussions/ Поддержка сообщества GitHub
+- https://www.gnu.org/software/rcs/rcs.html Официальный сайт Revision Control System
+- https://subversion.apache.org/ Официальный сайт Subversion
+- https://git-scm.com/downloads/win Страница загрузки Git для Windows
+- https://git-scm.com/downloads/mac Инструкции по установке Git для MacOS
+- https://git-scm.com/downloads/linux Инструкции по установке Git для Unix/Linux
